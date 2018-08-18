@@ -1,0 +1,58 @@
+.btn {
+    display: inline-block;
+    white-space: nowrap;
+    box-sizing: border-box;
+    cursor: pointer;
+
+    height: 50px;
+    padding: 0 30px;
+    border-radius: 5px;
+    border: 1px solid;
+
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: .15rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+@each $name, $hex in $colors {
+    
+    &.btn-#{$name} {
+        color: #FFFFFF;
+        background-color: $hex!important;
+        border-color: $hex!important;
+        
+        &:hover{
+            color: #FFFFFF;
+            background-color: darken( $hex, 10% )!important;
+            border-color: darken( $hex, 10% )!important;
+        }
+
+        &:focus{
+            color: #FFFFFF;
+            background-color: darken( $hex, 10% )!important;
+            border-color: darken( $hex, 10% )!important;
+        }
+    }
+
+    &.btn-outline-#{$name} {
+        color: $hex!important;
+        background-color: transparent!important;
+        border-color: $hex!important;
+        
+        &:hover{
+            color: #FFFFFF!important;
+            background-color: $hex!important;
+            border-color: $hex!important;
+        }
+
+        &:focus{
+            color: #FFFFFF!important;
+            background-color: $hex!important;
+            border-color: $hex!important;
+        }
+    }
+}
