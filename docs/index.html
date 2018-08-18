@@ -7,6 +7,7 @@
     <meta name="description" content="Documentation for Blckv css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../dist/blckv-css.min.css">
+    <link rel="stylesheet" href="./docs.css">
 </head>
 
 <body>
@@ -95,7 +96,7 @@
         <h1 class="color-purple">Forms</h1>
         <form>
             <label for="exInput">Input:</label>
-            <input class="full" id="exInput" type="text" placeholder="Placeholder Example"/>
+            <input class="full" id="exInput" type="text" placeholder="Placeholder Example" />
 
             <label for="exSelect">Select: </label>
             <select class="full" id="exSelect">
@@ -109,7 +110,61 @@
             <textarea class="full" id="exTextArea"></textarea>
         </form>
     </section>
-    
+
+    <hr>
+
+    <section>
+
+        <h1 class="color-purple">Grid</h1>
+
+        <h5>.row .col</h5>
+        <div class="row back-blue">
+            <div class="col col-ex back-navy"> col </div>
+            <div class="col col-ex back-navy"> col </div>
+        </div>
+
+        <br>
+
+        <h5>.spacing-around</h5>
+        <div class="row back-blue spacing-around">
+            <div class="col-3 col-ex back-navy"> col-3 </div>
+            <div class="col-3 col-ex back-navy"> col-3 </div>
+            <div class="col-3 col-ex back-navy"> col-3 </div>
+        </div>
+
+        <br>
+
+        <h5>.spacing-between</h5>
+        <div class="row back-blue spacing-between">
+            <div class="col-3 col-ex back-navy"> col-3 </div>
+            <div class="col-3 col-ex back-navy"> col-3 </div>
+            <div class="col-3 col-ex back-navy"> col-3 </div>
+        </div>
+
+        <br>
+
+        <h5>.align-start</h5>
+        <div class="row back-blue align-start">
+            <div class="col-4 col-ex back-navy"> col-4 </div>
+        </div>
+
+        <br>
+
+        <h5>.align-center</h5>
+        <div class="row back-blue align-center">
+            <div class="col-4 col-ex back-navy"> col-4 </div>
+        </div>
+
+        <br>
+
+        <h5>.align-end</h5>
+        <div class="row back-blue align-end">
+            <div class="col-4 col-ex back-navy"> col-4 </div>
+        </div>
+
+    </section>
+
+
 
 </body>
 
