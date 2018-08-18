@@ -11,7 +11,7 @@ var paths = {
 gulp.task('default', ['sass']);
 
 gulp.task('sass', function (done) {
-    gulp.src('./src/blckv-css.scss')
+    gulp.src('./src/default-css.scss')
         .pipe(bulkSass())
         .pipe(sass())
         .on('error', sass.logError)
