@@ -8,9 +8,9 @@ var paths = {
     sass: ['./src/**/*.scss']
 };
 
-gulp.task('default', ['sass']);
+gulp.task('default', ['build']);
 
-gulp.task('sass', function (done) {
+gulp.task('build', function (done) {
     gulp.src('./src/default-css.scss')
         .pipe(bulkSass())
         .pipe(sass())
@@ -26,6 +26,20 @@ gulp.task('sass', function (done) {
         .on('end', done);
 });
 
-gulp.task('watch-sass', function () {
-    gulp.watch(paths.sass, ['sass']);
+gulp.task('watch', function () {
+    gulp.watch(paths.sass, ['build', 'gen-docs']);
+});
+
+gulp.task('gen-docs', function() {
+    gulp.src('./src/default-css.scss')
+        .pipe(bulkSass())
+        .pipe(sass())
+        .on('error', sass.logError)
+        .pipe(minifyCss({
+            keepSpecialComments: 0
+        }))
+        .pipe(rename({
+            extname: '.min.css'
+        }))
+        .pipe(gulp.dest('./docs'));
 });

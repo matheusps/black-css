@@ -13,7 +13,7 @@
     "gulp-sass-bulk-import": "^1.0.1"
   },
   "scripts": {
-    "start": "gulp watch-sass",
-    "build": "gulp sass"
+    "start": "gulp watch",
+    "build": "gulp build && gulp gen-docs"
   }
 }
