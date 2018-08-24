@@ -1,4 +1,4 @@
-.btn {
+button {
     display: inline-block;
     white-space: nowrap;
     box-sizing: border-box;
@@ -16,6 +16,14 @@
     letter-spacing: .15rem;
     text-transform: uppercase;
     text-decoration: none;
+
+    color: #333;
+    background-color: #ccc;
+    border-color: #ccc;
+
+    &:hover, &:focus{
+        background-color: darken( #ccc, 10% );
+    }
 }
 
 @each $name, $hex in $colors {
@@ -25,13 +33,7 @@
         background-color: $hex!important;
         border-color: $hex!important;
         
-        &:hover{
-            color: #FFFFFF;
-            background-color: darken( $hex, 10% )!important;
-            border-color: darken( $hex, 10% )!important;
-        }
-
-        &:focus{
+        &:hover, &:focus{
             color: #FFFFFF;
             background-color: darken( $hex, 10% )!important;
             border-color: darken( $hex, 10% )!important;
@@ -43,13 +45,7 @@
         background-color: transparent!important;
         border-color: $hex!important;
         
-        &:hover{
-            color: #FFFFFF!important;
-            background-color: $hex!important;
-            border-color: $hex!important;
-        }
-
-        &:focus{
+        &:hover, &:focus{
             color: #FFFFFF!important;
             background-color: $hex!important;
             border-color: $hex!important;
