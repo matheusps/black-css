@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .bg-green {
   background-color: #2ecc71 !important; }
 
@@ -125,7 +126,9 @@ code {
   border-radius: 4px;
   display: block; }
 
-button {
+button,
+input[type="submit"],
+input[type="reset"] {
   white-space: nowrap;
   box-sizing: border-box;
   cursor: pointer;
@@ -141,12 +144,78 @@ button {
   padding: 0.2rem 2rem;
   background-color: rgba(0, 0, 0, 0.06);
   margin: 0.5rem; }
-  button:hover {
+  button:hover,
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
     background-color: rgba(0, 0, 0, 0.1); }
-  button:focus {
+  button:focus,
+  input[type="submit"]:focus,
+  input[type="reset"]:focus {
     outline: none; }
-  button:active {
+  button:active,
+  input[type="submit"]:active,
+  input[type="reset"]:active {
     transform: scale(0.95); }
+
+input[type="text"],
+[type="password"],
+[type="search"],
+[type="email"],
+[type="color"],
+[type="date"],
+[type="datetime-local"],
+[type="week"],
+[type="month"],
+[type="number"],
+[type="tel"],
+[type="time"],
+[type="url"] {
+  border-radius: 5px;
+  border: none;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-color: rgba(142, 142, 147, 0.1);
+  padding: 0.5rem 1rem;
+  width: 90%; }
+  input[type="text"]:focus,
+  [type="password"]:focus,
+  [type="search"]:focus,
+  [type="email"]:focus,
+  [type="color"]:focus,
+  [type="date"]:focus,
+  [type="datetime-local"]:focus,
+  [type="week"]:focus,
+  [type="month"]:focus,
+  [type="number"]:focus,
+  [type="tel"]:focus,
+  [type="time"]:focus,
+  [type="url"]:focus {
+    outline: none;
+    transform: scale(1.1); }
+
+input [type="search"]::before {
+  content: "🚀";
+  padding: 5px; }
+
+input {
+  margin: 0.5rem;
+  font-size: 1rem; }
+
+label {
+  margin: 0.5rem;
+  font-size: 1rem; }
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0.5rem 0 0.5rem 0;
+  display: block;
+  position: relative; }
+  fieldset label {
+    font-size: 1rem;
+    margin: 0rem 0.5rem; }
+  fieldset input {
+    margin: 0 0.5rem 0.5rem 0.5rem; }
 
 hr {
   margin-top: 3rem;

@@ -1,0 +1,60 @@
+input[type="text"],
+[type="password"],
+[type="search"],
+[type="email"],
+[type="color"],
+[type="date"],
+[type="datetime-local"],
+[type="week"],
+[type="month"],
+[type="number"],
+[type="tel"],
+[type="time"],
+[type="url"] {
+  border-radius: 5px;
+  border: none;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-color: rgba(142, 142, 147, 0.1);
+  padding: 0.5rem 1rem;
+  width: 90%;
+
+  &:focus {
+    outline: none;
+    transform: scale(1.1);
+  }
+}
+
+input [type="search"] {
+  &::before {
+    content: "🚀";
+    padding: 5px;
+  }
+}
+
+input {
+  margin: 0.5rem;
+  font-size: 1rem;
+}
+
+label {
+  margin: 0.5rem;
+  font-size: 1rem;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0.5rem 0 0.5rem 0;
+  display: block;
+  position: relative;
+
+  label {
+    font-size: 1rem;
+    margin: 0rem 0.5rem;
+  }
+
+  input {
+    margin: 0 0.5rem 0.5rem 0.5rem;
+  }
+}
