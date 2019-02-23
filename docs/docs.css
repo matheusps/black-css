@@ -1,10 +1,19 @@
-.row{
-    padding: 10px;
+body {
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
-.col-ex{
-    color: #FFFFFF;
-    text-align: center;
-    height: 50px;
-    padding-top: 15px;
+section {
+  display: flex;
+  flex-direction: row;
+}
+
+section div {
+  padding: 1rem;
+  width: 50%;
+}
+
+section code {
+  padding: 1rem;
+  width: 50%;
 }
