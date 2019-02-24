@@ -5,13 +5,6 @@ $c-box: hsla(0, 0, 0, 0.8);
 $bg-box: hsla(0, 0, 0, 0.06);
 $bg-box--hover: hsla(0, 0, 0, 0.1);
 
-/** Elements **/
-$roundness: 0.5rem;
-$border: none;
-$margin: 0.5rem;
-$padding: 0.5rem;
-$active-focus-scale: 0.05;
-
 /** Fonts **/
 // -- Base -- //
 $base-ff: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Oxygen, Ubuntu,
@@ -29,3 +22,35 @@ $heading-ff: $base-ff;
 $code-ff: $base-ff;
 $link-ff: $base-ff;
 $quote-ff: $base-ff;
+
+/** Elements **/
+$roundness: 0.5rem;
+$border: none;
+$margin: 0.5rem;
+$padding: 0.5rem;
+$active-focus-scale: 0.05;
+$box-shadow: none;
+
+/** Button **/
+$btn-fs: $base-fs;
+$btn-fw: $normal;
+$btn-roundness: $roundness;
+$btn-border: $border;
+$btn-margin: $margin;
+$btn-padding: ($padding/2) ($padding * 4);
+
+$btn-color: $c-box;
+$btn-color--hover: $c-box;
+$btn-color--active: $c-box;
+
+$btn-bg: $bg-box;
+$btn-bg--hover: $bg-box--hover;
+$btn-bg--active: $bg-box;
+
+$btn-shadow: $box-shadow;
+$btn-shadow--hover: $box-shadow;
+$btn-shadow--active: $box-shadow;
+
+$btn-scale: 1;
+$btn-scale--hover: 1;
+$btn-scale--active: 1 - $active-focus-scale;

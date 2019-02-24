@@ -1,7 +1,8 @@
 @charset "UTF-8";
 /** Colors **/
-/** Elements **/
 /** Fonts **/
+/** Elements **/
+/** Button **/
 *,
 *::before,
 *::after {
@@ -87,19 +88,27 @@ input[type="reset"] {
   border-radius: 0.5rem;
   padding: 0.25rem 2rem;
   background-color: rgba(0, 0, 0, 0.06);
-  margin: 0.5rem; }
+  margin: 0.5rem;
+  box-shadow: none;
+  transform: scale(1); }
   button:hover,
   input[type="submit"]:hover,
   input[type="reset"]:hover {
-    background-color: rgba(0, 0, 0, 0.1); }
+    color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+    transform: scale(1); }
+  button:active,
+  input[type="submit"]:active,
+  input[type="reset"]:active {
+    color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.06);
+    box-shadow: none;
+    transform: scale(0.95); }
   button:focus,
   input[type="submit"]:focus,
   input[type="reset"]:focus {
     outline: none; }
-  button:active,
-  input[type="submit"]:active,
-  input[type="reset"]:active {
-    transform: scale(0.95); }
 
 input[type="text"],
 [type="password"],

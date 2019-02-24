@@ -9,24 +9,32 @@ input[type="reset"] {
   line-height: 2;
   font-style: normal;
 
-  border: $border;
-  font-size: $base-fs;
-  font-weight: $normal;
-  color: $c-box;
-  border-radius: $roundness;
-  padding: ($padding/2) ($padding * 4);
-  background-color: $bg-box;
-  margin: $margin;
+  border: $btn-border;
+  font-size: $btn-fs;
+  font-weight: $btn-fw;
+  color: $btn-color;
+  border-radius: $btn-roundness;
+  padding: $btn-padding;
+  background-color: $btn-bg;
+  margin: $btn-margin;
+  box-shadow: $btn-shadow;
+  transform: scale($btn-scale);
 
   &:hover {
-    background-color: $bg-box--hover;
+    color: $btn-color--hover;
+    background-color: $btn-bg--hover;
+    box-shadow: $btn-shadow--hover;
+    transform: scale($btn-scale--hover);
+  }
+
+  &:active {
+    color: $btn-color--active;
+    background-color: $btn-bg--active;
+    box-shadow: $btn-shadow--active;
+    transform: scale($btn-scale--active);
   }
 
   &:focus {
     outline: none;
-  }
-
-  &:active {
-    transform: scale(1 - $active-focus-scale);
   }
 }
