@@ -1,22 +1,25 @@
 @charset "UTF-8";
+/** Colors **/
+/** Fonts **/
 *,
 *::before,
 *::after {
   box-sizing: inherit; }
 
 html {
-  box-sizing: border-box;
-  font-size: 1.25rem;
-  line-height: 1.5;
-  -webkit-tap-highlight-color: transparent; }
+  box-sizing: border-box; }
 
 body {
-  background: #fff;
-  color: #3b4351;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-  font-size: 0.8rem;
+  background: #ffffff;
+  color: #1b2733;
+  line-height: 1.625;
+  font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Oxygen, Ubuntu, Cantarell, “Open Sans”, “Helvetica Neue”, sans-serif;
+  font-size: 1rem;
   overflow-x: hidden;
-  text-rendering: optimizeLegibility; }
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-font-smoothing: antialiased;
+  font-variant-ligatures: no-common-ligatures; }
 
 h1,
 h2,
