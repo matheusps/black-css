@@ -1,6 +1,18 @@
 body {
-  padding: 2rem;
   background-color: rgba(0, 0, 0, 0.05);
+}
+
+.demo {
+  padding: 2.5rem;
+}
+
+.demo-title {
+  margin: 2rem 0 4rem 0;
+}
+
+.demo-title h2 {
+  font-weight: 300;
+  color: rgb(41, 84, 109);
 }
 
 section {

@@ -6,6 +6,8 @@
 
 html {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -14,6 +16,8 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-font-smoothing: antialiased;
   font-variant-ligatures: no-common-ligatures;
+  padding: 0;
+  margin: 0;
   background: $bg-base;
   color: $c-base;
   line-height: $base-lh;

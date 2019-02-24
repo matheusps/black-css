@@ -13,7 +13,9 @@
   box-sizing: inherit; }
 
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
 
 body {
   overflow-x: hidden;
@@ -21,6 +23,8 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-font-smoothing: antialiased;
   font-variant-ligatures: no-common-ligatures;
+  padding: 0;
+  margin: 0;
   background: #ffffff;
   color: #1b2733;
   line-height: 1.5;
@@ -186,3 +190,15 @@ code {
   border-radius: 0.5rem;
   background: rgba(0, 0, 0, 0.06);
   color: rgba(0, 0, 0, 0.8); }
+
+footer.simple {
+  width: 100%;
+  display: flex; }
+
+footer.simple {
+  background-color: rgba(0, 0, 0, 0.06);
+  height: 6rem;
+  align-items: center; }
+  footer.simple p {
+    width: 100%;
+    text-align: center; }
