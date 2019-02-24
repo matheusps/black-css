@@ -5,22 +5,21 @@ input[type="reset"] {
   box-sizing: border-box;
   cursor: pointer;
   border: none;
-
-  font-size: 1rem;
-  font-weight: normal;
-  font-style: normal;
+  text-align: center;
   font-stretch: normal;
   line-height: 2;
+  font-style: normal;
 
-  text-align: center;
-  color: hsla(0, 0, 0, 0.8);
-  border-radius: 0.5rem;
-  padding: 0.2rem 2rem;
-  background-color: hsla(0, 0, 0, 0.06);
-  margin: 0.5rem;
+  font-size: $base-fs;
+  font-weight: $normal;
+  color: $c-box;
+  border-radius: $roundness;
+  padding: ($padding/2) ($padding * 4);
+  background-color: $bg-box;
+  margin: $margin;
 
   &:hover {
-    background-color: hsla(0, 0, 0, 0.1);
+    background-color: $bg-box--hover;
   }
 
   &:focus {
@@ -28,6 +27,6 @@ input[type="reset"] {
   }
 
   &:active {
-    transform: scale(0.95);
+    transform: scale(1 - $active-focus-scale);
   }
 }
