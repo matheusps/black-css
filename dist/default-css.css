@@ -1,53 +1,4 @@
 @charset "UTF-8";
-.bg-green {
-  background-color: #2ecc71 !important; }
-
-.c-green {
-  color: #2ecc71 !important;
-  border-color: #2ecc71 !important; }
-
-.bg-blue {
-  background-color: #3498db !important; }
-
-.c-blue {
-  color: #3498db !important;
-  border-color: #3498db !important; }
-
-.bg-purple {
-  background-color: #9b59b6 !important; }
-
-.c-purple {
-  color: #9b59b6 !important;
-  border-color: #9b59b6 !important; }
-
-.bg-navy {
-  background-color: #34495e !important; }
-
-.c-navy {
-  color: #34495e !important;
-  border-color: #34495e !important; }
-
-.bg-orange {
-  background-color: #e67e22 !important; }
-
-.c-orange {
-  color: #e67e22 !important;
-  border-color: #e67e22 !important; }
-
-.bg-red {
-  background-color: #e74c3c !important; }
-
-.c-red {
-  color: #e74c3c !important;
-  border-color: #e74c3c !important; }
-
-.bg-dark {
-  background-color: #333 !important; }
-
-.c-dark {
-  color: #333 !important;
-  border-color: #333 !important; }
-
 *,
 *::before,
 *::after {
@@ -113,8 +64,7 @@ p {
   text-justify: auto; }
 
 a {
-  text-decoration: none;
-  color: #3498db; }
+  text-decoration: none; }
 
 code {
   padding: 0.2rem 0.5rem;
