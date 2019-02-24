@@ -1,6 +1,16 @@
 hr {
-  margin-top: 3rem;
-  margin-bottom: 3.5rem;
   border-width: 0;
-  border-top: 1px solid #e1e1e1;
+  margin: ($margin * 6) 0;
+  border-top: 0.125rem solid $bg-box;
+}
+
+code {
+  white-space: nowrap;
+  display: block;
+  border: $border;
+  padding: $padding;
+  margin: $margin;
+  border-radius: $roundness;
+  background: $bg-box;
+  color: $c-box;
 }

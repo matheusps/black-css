@@ -12,7 +12,7 @@ input[type="text"],
 [type="time"],
 [type="url"] {
   width: 90%;
-  border: none;
+  border: $border;
   border-radius: $roundness;
   background-color: $bg-box;
   padding: ($padding * 1.2) ($padding * 2);

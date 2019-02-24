@@ -4,12 +4,12 @@ input[type="reset"] {
   white-space: nowrap;
   box-sizing: border-box;
   cursor: pointer;
-  border: none;
   text-align: center;
   font-stretch: normal;
   line-height: 2;
   font-style: normal;
 
+  border: $border;
   font-size: $base-fs;
   font-weight: $normal;
   color: $c-box;
