@@ -2,6 +2,9 @@
 
 - [x] Button
 - [x] Typo
+- [ ] Blockquote
+- [ ] Lists
+- [ ] Forms
 - [ ] Checkbox
 - [ ] Radio
 - [ ] Select
@@ -9,6 +12,4 @@
 - [ ] Images
 - [ ] Semantic tags: `section` `header` `aside` `article` `...`
 - [ ] Blocs: Combination of sematic tags and elements
-- [ ] Blockquote
-- [ ] Lists
 - [ ] Generators
