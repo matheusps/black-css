@@ -14,7 +14,7 @@ input[type="text"],
   width: 90%;
   border: var(--border);
   border-radius: var(--roundness);
-  background-color: var(--bg-box);
+  background-color: var(--c-base);
   padding: calc(var(--padding) * 1.2) calc(var(--padding) * 2);
 }
 
@@ -37,12 +37,12 @@ input[type="text"],
 
 input {
   margin: var(--margin);
-  font-size: var(--base-fs);
+  font-size: var(--fs-base);
 }
 
 label {
   margin: var(--margin);
-  font-size: var(--base-fs);
+  font-size: var(--fs-base);
 }
 
 fieldset {

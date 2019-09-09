@@ -9,12 +9,12 @@ input[type="reset"] {
   line-height: 2;
   font-style: normal;
   border: var(--border);
-  font-size: var(--base-fs);
-  font-weight: var(--normal);
-  color: var(--c-box);
+  font-size: var(--fs-base);
+  font-weight: var(--fw-normal);
+  background-color: var(--c-action);
+  color: var(--c-on-action);
   border-radius: var(--roundness);
   padding: calc(var(--padding) / 2) calc(var(--padding) * 4);
-  background-color: var(--bg-box);
   margin: var(--margin);
   box-shadow: var(--box-shadow);
   transform: scale(1);

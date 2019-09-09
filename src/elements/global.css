@@ -14,13 +14,11 @@ body {
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -webkit-font-smoothing: antialiased;
-  font-variant-ligatures: no-common-ligatures;
   padding: 0;
   margin: 0;
-  background: var(--bg-base);
-  color: var(--c-base);
-  line-height: var(--base-lh);
-  font-family: var(--base-ff);
-  font-size: var(--base-fs);
+  background: var(--c-base);
+  color: var(--c-on-base);
+  line-height: var(--lh-base);
+  font-family: var(--ff-base);
+  font-size: var(--fs-base);
 }
