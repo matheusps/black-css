@@ -1,0 +1,17 @@
+hr {
+  border-width: 0;
+  margin: (var(--margin) * 6) 0;
+  border-top: 0.125rem solid var(--bg-box);
+}
+
+code {
+  white-space: nowrap;
+  display: block;
+  font-family: var(--code-ff);
+  border: var(--border);
+  padding: var(--padding);
+  margin: var(--margin);
+  border-radius: var(--roundness);
+  background: var(--bg-box);
+  color: var(--c-box);
+}

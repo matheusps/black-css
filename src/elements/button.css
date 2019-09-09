@@ -1,0 +1,21 @@
+button,
+input[type="submit"],
+input[type="reset"] {
+  white-space: nowrap;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+  font-stretch: normal;
+  line-height: 2;
+  font-style: normal;
+  border: var(--border);
+  font-size: var(--base-fs);
+  font-weight: var(--normal);
+  color: var(--c-box);
+  border-radius: var(--roundness);
+  padding: (var(--padding) / 2) (var(--padding) * 4);
+  background-color: var(--bg-box);
+  margin: var(--margin);
+  box-shadow: var(--box-shadow);
+  transform: scale(1);
+}

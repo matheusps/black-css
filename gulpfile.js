@@ -1,10 +1,9 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var minifyCss = require('gulp-minify-css');
-var rename = require('gulp-rename');
-var bulkSass = require('gulp-sass-bulk-import');
+const gulp = require('gulp');
+const minifyCss = require('gulp-minify-css');
+const rename = require('gulp-rename');
 
-var paths = {
+
+const paths = {
     sass: ['./src/**/*.scss']
 };
 

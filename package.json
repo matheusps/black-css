@@ -2,15 +2,13 @@
   "name": "default-css",
   "version": "0.0.1",
   "main": "index.js",
-  "author": "Matheus P. Silva (aka bl4ckd3v)",
+  "author": "@matheusps",
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-minify-css": "^1.2.4",
-    "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.1",
-    "gulp-sass-bulk-import": "^1.0.1"
+    "gulp-rename": "^1.4.0"
   },
   "scripts": {
     "start": "gulp watch",

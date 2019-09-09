@@ -18,9 +18,9 @@ body {
   font-variant-ligatures: no-common-ligatures;
   padding: 0;
   margin: 0;
-  background: $bg-base;
-  color: $c-base;
-  line-height: $base-lh;
-  font-family: $base-ff;
-  font-size: $base-fs;
+  background: var(--bg-base);
+  color: var(--c-base);
+  line-height: var(--base-lh);
+  font-family: var(--base-ff);
+  font-size: var(--base-fs);
 }

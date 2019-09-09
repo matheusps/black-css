@@ -1,0 +1,80 @@
+:root {
+  /** Colors **/
+  --bg-base: #ffffff;
+  --c-base: #1b2733;
+  --c-box: hsla(0, 0, 0, 0.8);
+  --bg-box: hsla(0, 0, 0, 0.06);
+  --bg-box--hover: hsla(0, 0, 0, 0.1);
+
+  /** Fonts **/
+
+  /** Font Families **/
+  --base-ff: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Oxygen,
+    Ubuntu, Cantarell, “Open Sans”, “Helvetica Neue”, sans-serif;
+  --body-ff: var(--base-ff);
+  --heading-ff: var(--base-ff);
+  --code-ff: var(--base-ff);
+  --link-ff: var(--base-ff);
+  --quote-ff: var(--base-ff);
+
+  /** Line Heights **/
+  --base-lh: 1.5;
+  --h1-lh: var(--base-lh);
+  --h2-lh: var(--base-lh);
+  --h3-lh: var(--base-lh);
+  --h4-lh: var(--base-lh);
+  --h5-lh: var(--base-lh);
+  --h6-lh: var(--base-lh);
+  --body-lh: 1.25;
+
+  /** Font sizes **/
+  --base-fs: 1rem;
+  --h1-fs: 2.5rem;
+  --h2-fs: 2.25rem;
+  --h3-fs: 2rem;
+  --h4-fs: 1.75rem;
+  --h5-fs: 1.5rem;
+  --h6-fs: 1.25rem;
+  --body-fs: var(--base-fs);
+
+  /** Common weights **/
+  --light: 300;
+  --normal: 400;
+  --medium: 600;
+  --bold: 700;
+  --heavy: 900;
+
+  /** Elements **/
+  --roundness: 0.5rem;
+  --border: none;
+  --margin: 0.5rem;
+  --padding: 0.5rem;
+  --active-focus-scale: 0.05;
+  --box-shadow: none;
+}
+
+:button {
+  /** Button **/
+  --btn-fs: var(--base-fs);
+  --btn-fw: var(--normal);
+  --btn-roundness: var(--roundness);
+  --btn-border: var(--border);
+  --btn-margin: var(--margin);
+  --btn-padding: (var(--padding) / 2) (--var(padding) * 4);
+
+  --btn-color: var(--c-box);
+  --btn-color--hover: var(--c-box);
+  --btn-color--active: var(--c-box);
+
+  --btn-bg: var(--bg-box);
+  --btn-bg--hover: var(--bg-box--hover);
+  --btn-bg--active: var(--bg-box);
+
+  --btn-shadow: var(--box-shadow);
+  --btn-shadow--hover: var(--box-shadow);
+  --btn-shadow--active: var(--box-shadow);
+
+  --btn-scale: 1;
+  --btn-scale--hover: 1;
+  --btn-scale--active: 1 - var(--active-focus-scale);
+}
