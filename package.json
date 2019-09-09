@@ -7,11 +7,10 @@
   "private": false,
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-minify-css": "^1.2.4",
-    "gulp-rename": "^1.4.0"
+    "gulp-clean-css": "^4.2.0"
   },
   "scripts": {
     "start": "gulp watch",
-    "build": "gulp build && gulp gen-docs"
+    "build": "gulp build"
   }
 }

@@ -13,9 +13,33 @@ input[type="reset"] {
   font-weight: var(--normal);
   color: var(--c-box);
   border-radius: var(--roundness);
-  padding: (var(--padding) / 2) (var(--padding) * 4);
+  padding: calc(var(--padding) / 2) calc(var(--padding) * 4);
   background-color: var(--bg-box);
   margin: var(--margin);
   box-shadow: var(--box-shadow);
   transform: scale(1);
+}
+
+button,
+input[type="submit"],
+input[type="reset"]:hover {
+  /*color: var(--btn-color--hover);
+  background-color: var(--btn-bg--hover);
+  box-shadow: var(--btn-shadow--hover);
+  transform: scale(var(--btn-scale--hover));*/
+}
+
+button,
+input[type="submit"],
+input[type="reset"]:active {
+  /*color: var(--btn-color--active);
+  background-color: var(--btn-bg--active);
+  box-shadow: var(--btn-shadow--active);
+  transform: scale(var(--btn-scale--active));*/
+}
+
+button,
+input[type="submit"],
+input[type="reset"]:focus {
+  outline: none;
 }

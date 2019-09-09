@@ -15,7 +15,7 @@ input[type="text"],
   border: var(--border);
   border-radius: var(--roundness);
   background-color: var(--bg-box);
-  padding: (var(--padding) * 1.2) (var(--padding) * 2);
+  padding: calc(var(--padding) * 1.2) calc(var(--padding) * 2);
 }
 
 input[type="text"],

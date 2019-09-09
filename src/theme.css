@@ -1,10 +1,10 @@
 :root {
-  /** Colors **/
+  /* Colors */
   --bg-base: #ffffff;
   --c-base: #1b2733;
-  --c-box: hsla(0, 0, 0, 0.8);
-  --bg-box: hsla(0, 0, 0, 0.06);
-  --bg-box--hover: hsla(0, 0, 0, 0.1);
+  --c-box: #212121;
+  --bg-box: #fafafa;
+  --bg-box--hover: #fdfdfd;
 
   /** Fonts **/
 
@@ -53,8 +53,9 @@
   --box-shadow: none;
 }
 
+/*
 :button {
-  /** Button **/
+
   --btn-fs: var(--base-fs);
   --btn-fw: var(--normal);
   --btn-roundness: var(--roundness);
@@ -77,4 +78,4 @@
   --btn-scale: 1;
   --btn-scale--hover: 1;
   --btn-scale--active: 1 - var(--active-focus-scale);
-}
+}*/
