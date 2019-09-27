@@ -1,0 +1,249 @@
+.flex
+  display: flex
+
+  &-auto
+    flex: 1 1 auto
+    min-width: 0
+    min-height: 0
+
+.row
+  flex-direction: row
+
+  &-r
+    flex-direction: row-reverse
+
+.col
+  flex-direction: column
+
+  &-r
+    flex-direction: column-reverse
+
+.wrap
+  flex-wrap: wrap
+
+  &-r
+    flex-wrap: wrap-reverse
+
+.nowrap
+  flex-wrap: nowrap
+
+.ai-start
+  align-items: flex-start
+
+.ai-end
+  align-items: flex-end
+
+.ai-center
+  align-items: center
+
+.ai-baseline
+  align-items: baseline
+
+.ai-stretch
+  align-items: stretch
+
+.as-start
+  align-self: flex-start
+
+.as-end
+  align-self: flex-end
+
+.as-center
+  align-self: center
+
+.as-baseline
+  align-self: baseline
+
+.as-stretch
+  align-self: stretch
+
+.jf-start
+  justify-content: flex-start
+
+.jf-end
+  justify-content: flex-end
+
+.jf-center
+  justify-content: center
+
+.jf-between
+  justify-content: space-between
+
+.jf-around
+  justify-content: space-around
+
+.ac-start
+  align-content: flex-start
+
+.ac-end
+  align-content: flex-end
+
+.ac-center
+  align-content: center
+
+.ac-between
+  align-content: space-between
+
+.ac-around
+  align-content: space-around
+
+.ac-stretch
+  align-content: stretch
+
+.first
+  order: 0
+
+.o1
+  order: 1
+
+.o2
+  order: 2
+
+.o3
+  order: 3
+
+.o4
+  order: 4
+
+.last
+  order: 999
+
+.grow-0
+  flex-grow: 0
+
+.grow-1
+  flex-grow: 1
+
+.grow-2
+  flex-grow: 2
+
+.shrink-0
+  flex-shrink: 0
+
+.shrink-1
+  flex-shrink: 1
+
+@media screen and (min-width: 30em)
+  .sm--flex
+    display: flex
+
+  .sm--row
+    flex-direction: row
+
+  -r &
+      flex-direction: row-reverse
+
+  .sm--col
+    flex-direction: column
+
+  -r &
+      flex-direction: column-reverse
+
+  .sm--wrap
+    flex-wrap: wrap
+
+  -r &
+      flex-wrap: wrap-reverse
+
+  .sm--nowrap
+    flex-wrap: nowrap
+
+  .sm--ai-start
+    align-items: flex-start
+
+  .sm--ai-end
+    align-items: flex-end
+
+  .sm--ai-center
+    align-items: center
+
+  .sm--ai-baseline
+    align-items: baseline
+
+  .sm--ai-stretch
+    align-items: stretch
+
+  .sm--as-start
+    align-self: flex-start
+
+  .sm--as-end
+    align-self: flex-end
+
+  .sm--as-center
+    align-self: center
+
+  .sm--as-baseline
+    align-self: baseline
+
+  .sm--as-stretch
+    align-self: stretch
+
+  .sm--jf-start
+    justify-content: flex-start
+
+  .sm--jf-end
+    justify-content: flex-end
+
+  .sm--jf-center
+    justify-content: center
+
+  .sm--jf-between
+    justify-content: space-between
+
+  .sm--jf-around
+    justify-content: space-around
+
+  .sm--ac-start
+    align-content: flex-start
+
+  .sm--ac-end
+    align-content: flex-end
+
+  .sm--ac-center
+    align-content: center
+
+  .sm--ac-between
+    align-content: space-between
+
+  .sm--ac-around
+    align-content: space-around
+
+  .sm--ac-stretch
+    align-content: stretch
+
+  .sm--first
+    order: 0
+
+  .sm--o1
+    order: 1
+
+  .sm--o2
+    order: 2
+
+  .sm--o3
+    order: 3
+
+  .sm--o4
+    order: 4
+
+  .sm--last
+    order: 999
+
+  .sm--grow-0
+    flex-grow: 0
+
+  .sm--grow-1
+    flex-grow: 1
+
+  .sm--grow-2
+    flex-grow: 2
+
+  .sm--shrink-0
+    flex-shrink: 0
+
+  .sm--shrink-1
+    flex-shrink: 1
+
+@media screen and (min-width: 30em) and (max-width: 60em)
+
+@media screen and (min-width: 60em)
