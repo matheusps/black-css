@@ -1,11 +1,12 @@
-let gulp = require("gulp")
-let cleanCSS = require("gulp-clean-css")
+const gulp = require("gulp")
+const cleanCSS = require("gulp-clean-css")
 
 gulp.task("build", () => {
   return gulp
-    .src("src/default.css")
+    .src("src/black.css")
     .pipe(cleanCSS())
     .pipe(gulp.dest("dist"))
+    .pipe(gulp.dest("docs"))
 })
 
 gulp.task("watch", function() {
