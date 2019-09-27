@@ -9,20 +9,20 @@
 .row
   flex-direction: row
 
-  &-r
-    flex-direction: row-reverse
+.row-r
+  flex-direction: row-reverse
 
 .col
   flex-direction: column
 
-  &-r
-    flex-direction: column-reverse
+.col-r
+  flex-direction: column-reverse
 
 .wrap
   flex-wrap: wrap
 
-  &-r
-    flex-wrap: wrap-reverse
+.wrap-r
+  flex-wrap: wrap-reverse
 
 .nowrap
   flex-wrap: nowrap
@@ -130,20 +130,20 @@
   .sm--row
     flex-direction: row
 
-  -r &
-      flex-direction: row-reverse
+  .sm--row-r
+    flex-direction: row-reverse
 
   .sm--col
     flex-direction: column
 
-  -r &
-      flex-direction: column-reverse
+  .sm--col-r
+    flex-direction: column-reverse
 
   .sm--wrap
     flex-wrap: wrap
 
-  -r &
-      flex-wrap: wrap-reverse
+  .sm--wrap-r
+    flex-wrap: wrap-reverse
 
   .sm--nowrap
     flex-wrap: nowrap
@@ -243,7 +243,3 @@
 
   .sm--shrink-1
     flex-shrink: 1
-
-@media screen and (min-width: 30em) and (max-width: 60em)
-
-@media screen and (min-width: 60em)
