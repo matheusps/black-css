@@ -1,0 +1,29 @@
+button,
+input[type='submit'],
+input[type='reset']
+  white-space: nowrap
+  box-sizing: border-box
+  cursor: pointer
+  text-align: center
+  font-stretch: normal
+  line-height: 2
+  font-style: normal
+  border: $border
+  font-size: $fs-base
+  background-color: $c-action
+  color: $c-on-action
+  border-radius: $roundness
+  padding: ($padding / 2) ($padding * 4)
+  margin: $margin
+  box-shadow: $box-shadow
+  transform: scale(1)
+
+button:active,
+input[type='submit']:active,
+input[type='reset']:active
+  transform: scale(0.98)
+
+button:focus,
+input[type='submit']:focus,
+input[type='reset']:focus
+  outline: none

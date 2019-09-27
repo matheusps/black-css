@@ -1,0 +1,55 @@
+input[type='text'],
+[type='password'],
+[type='search'],
+[type='email'],
+[type='color'],
+[type='date'],
+[type='datetime-local'],
+[type='week'],
+[type='month'],
+[type='number'],
+[type='tel'],
+[type='time'],
+[type='url']
+  width: 90%
+  border: $border
+  border-radius: $roundness
+  background-color: $c-box
+  color: $c-on-base
+  padding: ($padding * 1.2) ($padding * 2)
+
+input[type='text']:focus,
+[type='password']:focus,
+[type='search']:focus,
+[type='email']:focus,
+[type='color']:focus,
+[type='date']:focus,
+[type='datetime-local']:focus,
+[type='week']:focus,
+[type='month']:focus,
+[type='number']:focus,
+[type='tel']:focus,
+[type='time']:focus,
+[type='url']:focus
+  outline: none
+
+input
+  margin: $margin
+  font-size: $fs-base
+
+label
+  margin: $margin
+  font-size: $fs-base
+
+fieldset
+  border: none
+  padding: 0
+  display: block
+  position: relative
+  margin: $margin 0rem $margin 0rem
+
+fieldset input
+  margin: 0rem $margin $margin $margin
+
+fieldset label
+  margin: 0rem $margin

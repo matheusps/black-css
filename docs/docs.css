@@ -1,6 +1,6 @@
 body {
-  background: linear-gradient(90deg, var(--c-base) 20px, transparent 1%) center,
-    linear-gradient(var(--c-base) 20px, transparent 1%) center, var(--c-box);
+  background: linear-gradient(90deg, #070707 20px, transparent 1%) center,
+    linear-gradient(#070707 20px, transparent 1%) center, #1d1d1d;
   background-size: 22px 22px;
   margin: 4rem;
 }

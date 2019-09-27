@@ -1,0 +1,102 @@
+.flex
+  display: flex
+
+.flex-auto
+  flex: 1 1 auto
+  min-width: 0
+  min-height: 0
+
+.row
+  flex-direction: row
+
+.row-r
+  flex-direction: row-reverse
+
+.col
+  flex-direction: column
+
+.col-r
+  flex-direction: column-reverse
+
+.wrap
+  flex-wrap: wrap
+
+.wrap-r
+  flex-wrap: wrap-reverse
+
+.nowrap
+  flex-wrap: nowrap
+
+.ai-start
+  align-items: flex-start
+
+.ai-end
+  align-items: flex-end
+
+.ai-center
+  align-items: center
+
+.ai-baseline
+  align-items: baseline
+
+.ai-stretch
+  align-items: stretch
+
+.as-start
+  align-self: flex-start
+
+.as-end
+  align-self: flex-end
+
+.as-center
+  align-self: center
+
+.as-baseline
+  align-self: baseline
+
+.as-stretch
+  align-self: stretch
+
+.jf-start
+  justify-content: flex-start
+
+.jf-end
+  justify-content: flex-end
+
+.jf-center
+  justify-content: center
+
+.jf-between
+  justify-content: space-between
+
+.jf-around
+  justify-content: space-around
+
+.ac-start
+  align-content: flex-start
+
+.ac-end
+  align-content: flex-end
+
+.ac-center
+  align-content: center
+
+.ac-between
+  align-content: space-between
+
+.ac-around
+  align-content: space-around
+
+.ac-stretch
+  align-content: stretch
+
+@each $i in 0, 1, 2, 3, 5, 8, 13, 21
+  .o#{$i}
+    order: $i
+
+@each $i in 0, 1, 2, 3, 5, 8, 13, 21
+  .grow-#{$i}
+    flex-grow: $i
+
+  .shrink-#{$i}
+    flex-shrink: $i
