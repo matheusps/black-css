@@ -1,16 +1,16 @@
-input[type="text"],
-[type="password"],
-[type="search"],
-[type="email"],
-[type="color"],
-[type="date"],
-[type="datetime-local"],
-[type="week"],
-[type="month"],
-[type="number"],
-[type="tel"],
-[type="time"],
-[type="url"] {
+input[type='text'],
+[type='password'],
+[type='search'],
+[type='email'],
+[type='color'],
+[type='date'],
+[type='datetime-local'],
+[type='week'],
+[type='month'],
+[type='number'],
+[type='tel'],
+[type='time'],
+[type='url'] {
   width: 90%;
   border: var(--border);
   border-radius: var(--roundness);
@@ -19,19 +19,19 @@ input[type="text"],
   padding: calc(var(--padding) * 1.2) calc(var(--padding) * 2);
 }
 
-input[type="text"],
-[type="password"],
-[type="search"],
-[type="email"],
-[type="color"],
-[type="date"],
-[type="datetime-local"],
-[type="week"],
-[type="month"],
-[type="number"],
-[type="tel"],
-[type="time"],
-[type="url"]:focus {
+input[type='text'],
+[type='password'],
+[type='search'],
+[type='email'],
+[type='color'],
+[type='date'],
+[type='datetime-local'],
+[type='week'],
+[type='month'],
+[type='number'],
+[type='tel'],
+[type='time'],
+[type='url']:focus {
   outline: none;
   transform: scale(1 + var(--active-focus-scale));
 }

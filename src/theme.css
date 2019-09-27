@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro|Montserrat:800|Work+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro|Montserrat:800|Work+Sans&display=swap');
 
 :root {
   /* Colors */
@@ -11,10 +11,10 @@
   --c-on-action: #070707;
 
   /* Font Families */
-  --ff-base: "Work Sans", sans-serif;
+  --ff-base: 'Work Sans', sans-serif;
   --ff-body: var(--base-ff);
-  --ff-heading: "Montserrat", sans-serif;
-  --ff-code: "Source Code Pro", monospace;
+  --ff-heading: 'Montserrat', sans-serif;
+  --ff-code: 'Source Code Pro', monospace;
   --ff-link: var(--base-ff);
   --ff-quote: var(--base-ff);
 
