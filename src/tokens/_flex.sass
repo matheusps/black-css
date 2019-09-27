@@ -1,10 +1,10 @@
 .flex
   display: flex
 
-  &-auto
-    flex: 1 1 auto
-    min-width: 0
-    min-height: 0
+.flex-auto
+  flex: 1 1 auto
+  min-width: 0
+  min-height: 0
 
 .row
   flex-direction: row
@@ -90,40 +90,18 @@
 .ac-stretch
   align-content: stretch
 
-.first
-  order: 0
+@each $i in 0, 1, 2, 3, 5, 8, 13, 21
+  .o#{$i}
+    order: $i
 
-.o1
-  order: 1
+@each $i in 0, 1, 2, 3, 5, 8, 13, 21
+  .grow-#{$i}
+    flex-grow: $i
 
-.o2
-  order: 2
+  .shrink-#{$i}
+    flex-shrink: $i
 
-.o3
-  order: 3
-
-.o4
-  order: 4
-
-.last
-  order: 999
-
-.grow-0
-  flex-grow: 0
-
-.grow-1
-  flex-grow: 1
-
-.grow-2
-  flex-grow: 2
-
-.shrink-0
-  flex-shrink: 0
-
-.shrink-1
-  flex-shrink: 1
-
-@media screen and (min-width: 30em)
+@media screen and (min-width: $breakpoint-sm)
   .sm--flex
     display: flex
 
