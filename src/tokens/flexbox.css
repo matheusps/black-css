@@ -1,9 +1,6 @@
 .flex {
   display: flex;
 }
-.inline-flex {
-  display: inline-flex;
-}
 .flex-auto {
   flex: 1 1 auto;
   min-width: 0;
@@ -129,9 +126,6 @@
 @media screen and (min-width: 30em) {
   .sm--flex {
     display: flex;
-  }
-  .sm--inline-flex {
-    display: inline-flex;
   }
   .sm--row {
     flex-direction: row;

@@ -19,21 +19,20 @@ input[type='text'],
   padding: calc(var(--padding) * 1.2) calc(var(--padding) * 2);
 }
 
-input[type='text'],
-[type='password'],
-[type='search'],
-[type='email'],
-[type='color'],
-[type='date'],
-[type='datetime-local'],
-[type='week'],
-[type='month'],
-[type='number'],
-[type='tel'],
-[type='time'],
+input[type='text']:focus,
+[type='password']:focus,
+[type='search']:focus,
+[type='email']:focus,
+[type='color']:focus,
+[type='date']:focus,
+[type='datetime-local']:focus,
+[type='week']:focus,
+[type='month']:focus,
+[type='number']:focus,
+[type='tel']:focus,
+[type='time']:focus,
 [type='url']:focus {
   outline: none;
-  transform: scale(1 + var(--active-focus-scale));
 }
 
 input {
