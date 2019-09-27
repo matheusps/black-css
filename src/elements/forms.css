@@ -14,7 +14,8 @@ input[type="text"],
   width: 90%;
   border: var(--border);
   border-radius: var(--roundness);
-  background-color: var(--c-base);
+  background-color: var(--c-box);
+  color: var(--c-on-base);
   padding: calc(var(--padding) * 1.2) calc(var(--padding) * 2);
 }
 

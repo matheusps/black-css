@@ -1,18 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro|Montserrat:800|Work+Sans&display=swap");
+
 :root {
   /* Colors */
-  --c-base: #ffffff;
-  --c-on-base: #1b2733;
-  --c-action: #212121;
+  --c-base: #070707;
+  --c-box: #1d1d1d;
+  --c-on-base: #ffffff;
+  --c-action: #ffffff;
   --c-action--hover: ;
   --c-action--active: ;
-  --c-on-action: #fafafa;
+  --c-on-action: #070707;
 
   /* Font Families */
-  --ff-base: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Oxygen,
-    Ubuntu, Cantarell, “Open Sans”, “Helvetica Neue”, sans-serif;
+  --ff-base: "Work Sans", sans-serif;
   --ff-body: var(--base-ff);
-  --ff-heading: var(--base-ff);
-  --ff-code: var(--base-ff);
+  --ff-heading: "Montserrat", sans-serif;
+  --ff-code: "Source Code Pro", monospace;
   --ff-link: var(--base-ff);
   --ff-quote: var(--base-ff);
 
@@ -27,21 +29,14 @@
   --lh-body: 1.25;
 
   /** Font sizes **/
-  --fs-base: 1rem;
-  --fs1: 2.5rem;
-  --fs2: 2.25rem;
-  --fs3: 2rem;
-  --fs4: 1.75rem;
-  --fs5: 1.5rem;
-  --fs6: 1.25rem;
+  --fs-base: 1.125rem;
+  --fs1: 4rem;
+  --fs2: 2.5rem;
+  --fs3: 2.25rem;
+  --fs4: 2rem;
+  --fs5: 1.75rem;
+  --fs6: 1.5rem;
   --fs-body: var(--fs-base);
-
-  /** Font weights **/
-  --fw-light: 300;
-  --fw-normal: 400;
-  --fw-medium: 600;
-  --fw-bold: 700;
-  --fw-heavy: 900;
 
   /** Elements **/
   --roundness: 0.5rem;
@@ -51,30 +46,3 @@
   --active-focus-scale: 0.05;
   --box-shadow: none;
 }
-
-/*
-:button {
-
-  --btn-fs: var(--base-fs);
-  --btn-fw: var(--normal);
-  --btn-roundness: var(--roundness);
-  --btn-border: var(--border);
-  --btn-margin: var(--margin);
-  --btn-padding: (var(--padding) / 2) (--var(padding) * 4);
-
-  --btn-color: var(--c-box);
-  --btn-color--hover: var(--c-box);
-  --btn-color--active: var(--c-box);
-
-  --btn-bg: var(--bg-box);
-  --btn-bg--hover: var(--bg-box--hover);
-  --btn-bg--active: var(--bg-box);
-
-  --btn-shadow: var(--box-shadow);
-  --btn-shadow--hover: var(--box-shadow);
-  --btn-shadow--active: var(--box-shadow);
-
-  --btn-scale: 1;
-  --btn-scale--hover: 1;
-  --btn-scale--active: 1 - var(--active-focus-scale);
-}*/

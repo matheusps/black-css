@@ -46,14 +46,11 @@ p {
   font-size: var(--fs-body);
   line-height: var(--lh-body);
   font-family: var(--ff-body);
-  font-weight: var(--fw-normal);
 }
 
 a {
   text-decoration: none;
   cursor: pointer;
   font-family: var(--ff-link);
-  font-weight: var(--fw-medium);
   color: var(--c-on-base);
-  /*c base hover*/
 }

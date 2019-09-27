@@ -10,7 +10,6 @@ input[type="reset"] {
   font-style: normal;
   border: var(--border);
   font-size: var(--fs-base);
-  font-weight: var(--fw-normal);
   background-color: var(--c-action);
   color: var(--c-on-action);
   border-radius: var(--roundness);
@@ -20,26 +19,14 @@ input[type="reset"] {
   transform: scale(1);
 }
 
-button,
-input[type="submit"],
-input[type="reset"]:hover {
-  /*color: var(--btn-color--hover);
-  background-color: var(--btn-bg--hover);
-  box-shadow: var(--btn-shadow--hover);
-  transform: scale(var(--btn-scale--hover));*/
-}
-
-button,
-input[type="submit"],
+button:active,
+input[type="submit"]:active,
 input[type="reset"]:active {
-  /*color: var(--btn-color--active);
-  background-color: var(--btn-bg--active);
-  box-shadow: var(--btn-shadow--active);
-  transform: scale(var(--btn-scale--active));*/
+  transform: scale(0.98);
 }
 
-button,
-input[type="submit"],
+button:focus,
+input[type="submit"]:focus,
 input[type="reset"]:focus {
   outline: none;
 }
