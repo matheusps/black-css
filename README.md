@@ -4,8 +4,24 @@
 
 #### Roadmap
 
+##### Tokens
+
+- [x] Flex
+- [x] Text
+- [ ] Display
+- [ ] Padding
+- [ ] Margin
+- [ ] Width
+- [ ] Height
+- [ ] Position
+- [ ] Responsive
+
+##### Atoms
+
 - [x] Button
 - [x] Typo
+- [ ] Code
+- [ ] Divider
 - [ ] Blockquote
 - [ ] Lists
 - [ ] Forms
@@ -14,6 +30,18 @@
 - [ ] Select
 - [ ] Tables
 - [ ] Images
-- [ ] Semantic tags: `section` `header` `aside` `article` `...`
-- [ ] Blocs: Combination of sematic tags and elements
-- [ ] Generators
+- [ ] Toggle
+- [ ] Responsive
+
+##### Molecules
+
+- [ ] Cards
+- [ ] Avatar
+- [ ] Nav
+- [ ] Header
+- [ ] Sections
+- [ ] Responsive
+
+##### Organisms (building blocs)
+
+- [ ] Define scopes: Ecommerce, Dashboard, Blog, ...
