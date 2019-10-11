@@ -9,12 +9,17 @@
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.2.0",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.0.2",
+    "np": "*"
   },
   "scripts": {
     "start": "gulp",
+    "release": "np",
     "prepublish": "gulp build",
     "build": "gulp build",
     "test": "echo \"Error: no test specified\""
+  },
+  "np": {
+    "contents": "dist"
   }
 }
