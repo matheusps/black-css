@@ -1,7 +1,8 @@
 {
   "name": "unmd",
   "version": "0.1.1",
-  "main": "gulpfile.js",
+  "description": "Style apps without brain damage",
+  "main": "index.js",
   "author": "@matheusps",
   "license": "MIT",
   "private": false,
@@ -15,8 +16,11 @@
   "scripts": {
     "start": "gulp",
     "release": "np",
-    "prepublish": "gulp build",
     "build": "gulp build",
+    "prepublishOnly": "yarn build",
     "test": "echo \"Error: no test specified\""
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }

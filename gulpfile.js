@@ -23,11 +23,10 @@
 
   const compileSass = () =>
     gulp
-      .src('src/black.sass')
+      .src('src/unmd.sass')
       .pipe(sass(sassConfig).on('error', sass.logError))
       .pipe(cleanCSS())
       .pipe(gulp.dest('dist'))
-      .pipe(gulp.dest('docs'))
 
   const watch = done => {
     gulp.watch('./src/**/*.sass', compileSass)
