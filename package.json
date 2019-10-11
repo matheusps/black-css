@@ -18,8 +18,5 @@
     "prepublish": "gulp build",
     "build": "gulp build",
     "test": "echo \"Error: no test specified\""
-  },
-  "np": {
-    "contents": "dist"
   }
 }
