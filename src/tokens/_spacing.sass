@@ -1,0 +1,38 @@
+
+@function getFibMap($base, $lenght)
+  $newMap: (0: 0, 1: $base, 2: $base + $base)
+  @for $index from 0 through $lenght - 3
+    $newValue: (($index + 3): map-get($newMap, $index + 1) + map-get($newMap, $index + 2))
+    $newMap: map-merge($newMap, $newValue)
+  @return $newMap
+
+@each $i, $val in getFibMap(0.125, 8)
+  .p#{$i}
+    padding: #{$val}rem
+
+  .pt#{$i}
+    padding-top: #{$val}rem
+
+  .pr#{$i}
+    padding-right: #{$val}rem
+
+  .pb#{$i}
+    padding-bottom: #{$val}rem
+
+  .pl#{$i}
+    padding-left: #{$val}rem
+
+  .m#{$i}
+    margin: #{$val}rem
+
+  .mt#{$i}
+    margin-top: #{$val}rem
+
+  .mr#{$i}
+    margin-right: #{$val}rem
+
+  .mb#{$i}
+    margin-bottom: #{$val}rem
+
+  .ml#{$i}
+    margin-left: #{$val}rem
